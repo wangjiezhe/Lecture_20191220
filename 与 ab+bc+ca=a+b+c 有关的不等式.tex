@@ -1,0 +1,68 @@
+\documentclass[a4paper,UTF8,linespread=1.5]{ctexart}
+
+\usepackage[margin=2cm,bottom=4cm]{geometry}
+
+\usepackage{fourier}
+
+\usepackage{amsmath,amssymb,amsthm}
+
+\catcode`。=\active
+\def。{．}
+
+\usepackage{pgfornament}
+\usepackage{xcolor}
+
+\definecolor{dblue}{HTML}{143268}
+\definecolor{dpink}{HTML}{B43283}
+
+\usepackage{enumitem}
+
+\theoremstyle{definition}\newtheorem{problem}{Q}
+
+\pagestyle{empty}
+
+\title{\huge \heiti \color{dblue} 与 ab+bc+ca=a+b+c 有关的不等式\\\pgfornament[scale=0.4]{84}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{empty}
+
+\begin{problem}
+    设 $ a,b,c$ 是非负实数，满足 $ab+bc+ca=a+b+c>0.$ 求证：
+    \begin{enumerate}[label={(\arabic*)}]
+        \item $a+b+c+abc\geqslant 4$
+        \item $a^2+b^2+c^2+5abc\geqslant 8$
+        \item $a^3+b^3+c^3+13abc\geq16$
+        \item $(a+1)(b+1)(c+1)\geqslant 8$
+        \item $\sqrt{a+3}+\sqrt{b+3}+\sqrt{c+3}\geqslant 6$
+        \item $\sqrt{a}+\sqrt{b}+\sqrt{c}\geqslant 2\sqrt{2}$
+        \item $\dfrac{1}{a^2+b+1}+\dfrac{1}{b^2+c+1}+\dfrac{1}{c^2+a+1}\leqslant 1$
+        \item $\sqrt{a+b+2}+\sqrt{b+c+2}+\sqrt{c+a+2}\geqslant 6$
+        \item $\sqrt{ab}+\sqrt{bc}+\sqrt{ca}\geqslant 2$
+        \item $\dfrac{1}{1+a^3}+ \dfrac{1}{1+b^3}+ \dfrac{1}{1+c^3}\geq\dfrac{11}{9} $
+        \item $\dfrac{1}{1+a^4}+ \dfrac{1}{1+b^4}+ \dfrac{1}{1+c^4}\geq\dfrac{19}{17}$
+        \item $a+b+c\geqslant 2+abc$
+        \item $\sqrt{a+b}+\sqrt{b+c}+\sqrt{c+a}\geqslant 3\sqrt{2}$
+        \item $(a+b)(b+c)(c+a)\geqslant 8$
+        \item $(a^2+b)(b^2+c)(c^2+a)\geqslant 8$
+        \item $(a^2+bc)(b^2+ca)(c^2+ab)\geqslant 8$
+        \item $\dfrac{1}{3}(a+b+c)\leq(a+b-1)(b+c-1)(c+a-1)\leqslant 2(a+b+c)-5$
+
+        \item $1<\dfrac{1}{a+b}+\dfrac{1}{b+c}+\dfrac{1}{c+a}\le\dfrac{3}{2}$
+        \item $\dfrac{1}{(a+b)(a+c-1)+1}+\dfrac{1}{(b+c)(a+b-1)+1}+\dfrac{1}{(c+a)(b+c-1)+1}\le 1$
+        \item $a+b+c+1\ge 4abc$
+        \item $\dfrac{a^2}{b}+\dfrac{b^2}{c}+\dfrac{c^2}{a}+\dfrac{3n}{a^2+b^2+c^2} \geqslant 3+n,n\le 3$
+        \item $\dfrac{ab+bc+ca}{3}+2\ge \sqrt{ab}+\sqrt{bc}+\sqrt{ca}$
+        \item $a+b+c+1\le a^2b+b^2c+c^2a+abc$
+        \item $\dfrac{a}{\sqrt{a+b}}+\dfrac{b}{\sqrt{b+c}}+\dfrac{c}{\sqrt{a+c}}\geqslant \dfrac{3\sqrt{2}}{2}$
+        \item $\dfrac{a^2}{(b+1)(c+1)}+\dfrac{b^2}{(c+1)(a+1)}+\dfrac{c^2}{(a+1)(b+1)}\ge \dfrac{4-abc}{4}$
+    \end{enumerate}
+
+\end{problem}
+
+
+\end{document}
